@@ -1,7 +1,7 @@
 {
 "name":"ARCHS4",
 "description":"Ma'ayan Lab",
-"version":"1.0.0",
+"version":"1.0.1",
 "manifest_version":2,
 
 "content_scripts": [
@@ -13,9 +13,6 @@
   ],
 
   "permissions": [
-    "webNavigation",
-    "tabs",
-    "background",
     "http://amp.pharm.mssm.edu/awsscheduler/getGSEmatrix.php*"
   ],
 
